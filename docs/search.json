@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "St. Louis River Estuary",
+    "title": "Welcome to the St. Louis River Estuary",
     "section": "",
-    "text": "This is a Quarto website.\n\n\n\n\n\nFall Colors Along the Estuary"
+    "text": "Research staff at the Lake Superior Reserve operate the System-Wide Monitoring Program (SWMP) on the St. Louis River Estuary in Superior, WI. SWMP provides researchers, resource managers, educators, and coastal decision makers a standardized network of water quality, weather, and nutrient data measures. We initiated SWMP in 2012 and continue to grow the program to monitor change, and evaluate how coastal ecosystems are responding to climate change. SWMP is happening along our coasts in a network of 30 National Estuarine Research Reserves. You can find out more information and download SWMP data at the Centralized Database Management Office.\nTake a look at where we collect water quality, weather, and nutrient data in the St. Louis River Estuary.\n\nupdated: February 26, 2023"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,19 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "assets/water_quality.html",
+    "href": "assets/water_quality.html",
+    "title": "Water Quality",
+    "section": "",
+    "text": "Temperature [Is it possible to put several figures in a corral that scroll or have a button you click to scroll?]\nBarker’s Island (BA) Box Plot, Scatter, Daily Range, (2 of three in folder for BA) Blatnik Bridge (BA) Box Plot, Scatter, Daily Range, (2 of three in folder for BL) Oliver Bridge (OL) Box Plot, Scatter, Daily Range, (2 of three in folder for BL) Pokegama Bay (PO) Box Plot, Scatter, Daily Range, (2 of three in folder for BL) Conductivity Dissolved oxygen pH Turbidity"
+  },
+  {
+    "objectID": "water_quality.html",
+    "href": "water_quality.html",
+    "title": "Water Quality",
+    "section": "",
+    "text": "Temperature [Is it possible to put several figures in a corral that scroll or have a button you click to scroll?]\nBarker’s Island (BA)\n\n\n\n<div class=\"carousel-item active\">\n  <img src=\"assets/plot_ba_temp_box.jpeg\" class=\"d-block w-100\" alt=\"temperature box plot\">\n</div>\n<div class=\"carousel-item\">\n  <img src=\"assets/plot_ba_temp_range.jpeg\" class=\"d-block w-100\" alt=\"temperature range\">\n</div>\n<div class=\"carousel-item\">\n  <img src=\"assets/Full_logo.png\" class=\"d-block w-100\" alt=\"logo\">\n</div>\n\n  Previous \n  Next \n\nBox Plot, Scatter, Daily Range, (2 of three in folder for BA)\nBlatnik Bridge (BA)\nBox Plot, Scatter, Daily Range, (2 of three in folder for BL)\nOliver Bridge (OL)\nBox Plot, Scatter, Daily Range, (2 of three in folder for BL)\nPokegama Bay (PO)\nBox Plot, Scatter, Daily Range, (2 of three in folder for BL)\nConductivity\nDissolved oxygen\npH\nTurbidity"
   }
 ]

@@ -36,7 +36,7 @@ p {
 }
 
 a {
-  color: #faeeca;
+  color: #0000ee;
 }
 
 .navbar-logo {
@@ -68,7 +68,7 @@ padding-right: 40px;
   color: #f3f2e5;
 }
 
-.barkers_rain {
+.lg_image {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -102,4 +102,4 @@ padding-right: 40px;
   text-decoration: none;
   text-align: center;
   padding: 6px;
-}/* css styles */
+}
