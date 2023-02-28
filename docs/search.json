@@ -1,10 +1,38 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to the St. Louis River Estuary",
+    "objectID": "water_quality.html",
+    "href": "water_quality.html",
+    "title": "Water Quality",
     "section": "",
-    "text": "Research staff at the Lake Superior Reserve operate the System-Wide Monitoring Program (SWMP) on the St. Louis River Estuary in Superior, WI. SWMP provides researchers, resource managers, educators, and coastal decision makers a standardized network of water quality, weather, and nutrient data measures. We initiated SWMP in 2012 and continue to grow the program to monitor change, and evaluate how coastal ecosystems are responding to climate change. SWMP is happening along our coasts in a network of 30 National Estuarine Research Reserves. You can find out more information and download SWMP data at the Centralized Database Management Office.\nTake a look at where we collect water quality, weather, and nutrient data in the St. Louis River Estuary.\n\nupdated: February 26, 2023"
+    "text": "[Is it possible to put several figures in a corral that scroll or have a button you click to scroll?]\nBarker’s Island (BA)\n\n\n\n<div class=\"carousel-item active\">\n  <img src=\"assets/plot_ba_temp_box.jpeg\" class=\"d-block w-100\" alt=\"temperature box plot\">\n</div>\n<div class=\"carousel-item\">\n  <img src=\"assets/plot_ba_temp_range.jpeg\" class=\"d-block w-100\" alt=\"temperature range\">\n</div>\n<div class=\"carousel-item\">\n  <img src=\"assets/Full_logo.png\" class=\"d-block w-100\" alt=\"logo\">\n</div>\n\n  Previous \n  Next \n\nBox Plot, Scatter, Daily Range, (2 of three in folder for BA)\nBlatnik Bridge (BA)\nBox Plot, Scatter, Daily Range, (2 of three in folder for BL)\nOliver Bridge (OL)\nBox Plot, Scatter, Daily Range, (2 of three in folder for BL)\nPokegama Bay (PO)\nBox Plot, Scatter, Daily Range, (2 of three in folder for BL)"
+  },
+  {
+    "objectID": "water_quality.html#conductivity",
+    "href": "water_quality.html#conductivity",
+    "title": "Water Quality",
+    "section": "Conductivity",
+    "text": "Conductivity\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "objectID": "water_quality.html#dissolved-oxygen",
+    "href": "water_quality.html#dissolved-oxygen",
+    "title": "Water Quality",
+    "section": "Dissolved oxygen",
+    "text": "Dissolved oxygen\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "objectID": "water_quality.html#ph",
+    "href": "water_quality.html#ph",
+    "title": "Water Quality",
+    "section": "pH",
+    "text": "pH\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "objectID": "water_quality.html#turbidity",
+    "href": "water_quality.html#turbidity",
+    "title": "Water Quality",
+    "section": "Turbidity",
+    "text": "Turbidity\n1914 translation of “Loren Ipsum…” by H. Rackham (accuracy unverified…)\n“But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?”"
   },
   {
     "objectID": "about.html",
@@ -14,24 +42,59 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "assets/water_quality.html",
-    "href": "assets/water_quality.html",
-    "title": "Water Quality",
-    "section": "",
-    "text": "Temperature [Is it possible to put several figures in a corral that scroll or have a button you click to scroll?]\nBarker’s Island (BA) Box Plot, Scatter, Daily Range, (2 of three in folder for BA) Blatnik Bridge (BA) Box Plot, Scatter, Daily Range, (2 of three in folder for BL) Oliver Bridge (OL) Box Plot, Scatter, Daily Range, (2 of three in folder for BL) Pokegama Bay (PO) Box Plot, Scatter, Daily Range, (2 of three in folder for BL) Conductivity Dissolved oxygen pH Turbidity"
-  },
-  {
-    "objectID": "water_quality.html",
-    "href": "water_quality.html",
-    "title": "Water Quality",
-    "section": "",
-    "text": "Temperature [Is it possible to put several figures in a corral that scroll or have a button you click to scroll?]\nBarker’s Island (BA)\n\n\n\n<div class=\"carousel-item active\">\n  <img src=\"assets/plot_ba_temp_box.jpeg\" class=\"d-block w-100\" alt=\"temperature box plot\">\n</div>\n<div class=\"carousel-item\">\n  <img src=\"assets/plot_ba_temp_range.jpeg\" class=\"d-block w-100\" alt=\"temperature range\">\n</div>\n<div class=\"carousel-item\">\n  <img src=\"assets/Full_logo.png\" class=\"d-block w-100\" alt=\"logo\">\n</div>\n\n  Previous \n  Next \n\nBox Plot, Scatter, Daily Range, (2 of three in folder for BA)\nBlatnik Bridge (BA)\nBox Plot, Scatter, Daily Range, (2 of three in folder for BL)\nOliver Bridge (OL)\nBox Plot, Scatter, Daily Range, (2 of three in folder for BL)\nPokegama Bay (PO)\nBox Plot, Scatter, Daily Range, (2 of three in folder for BL)\nConductivity\nDissolved oxygen\npH\nTurbidity"
-  },
-  {
     "objectID": "reports.html",
     "href": "reports.html",
     "title": "Reports, Resources, & Other Publications",
     "section": "",
     "text": "SWMP Reporting\n\n2022 SWMP Annual Report\n2021 SWMP Annual Report\n\n\n\nOther Projects at LSNERR\n\nLake Superior Reserve Fact Sheet\nLake Superior Reserve 2021 Highlights\nLake Superior Reserve 2020 Highlights\nAnalysis of PFAS release following the April 2018 refinery fire in Superior, Wisconsin\nCoastal Training Program Needs Assessment Report June 2021\nHusky Energy refinery incident resources and information\nLake Superior Manoomin Cultural and Ecosystem Characterization Study Final Report\n\n\n\nMajor Research Projects\n\nDocumenting Water Depth Fluctuation and Waterfowl Occurrence within Wild Rice Beds in the St. Louis River Estuary\nUnder-Ice Water Quality Assessment in Perch Lake, Mudd Lake and Kimballs Bay\n\nCan’t get enough of LSNERR publications? Check out the Resources & Publications page on our main website!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the St. Louis River Estuary",
+    "section": "",
+    "text": "Research staff at the Lake Superior Reserve operate the System-Wide Monitoring Program (SWMP) on the St. Louis River Estuary in Superior, WI. SWMP provides researchers, resource managers, educators, and coastal decision makers a standardized network of water quality, weather, and nutrient data measures. We initiated SWMP in 2012 and continue to grow the program to monitor change, and evaluate how coastal ecosystems are responding to climate change. SWMP is happening along our coasts in a network of 30 National Estuarine Research Reserves. You can find out more information and download SWMP data at the Centralized Database Management Office.\nTake a look at where we collect water quality, weather, and nutrient data in the St. Louis River Estuary.\n\nupdated: February 26, 2023"
+  },
+  {
+    "objectID": "temperature.html",
+    "href": "temperature.html",
+    "title": "Temperature",
+    "section": "",
+    "text": "Carousel would be great. This is how the figures can look if carousel isn’t an easy option: Small in a grid and then click to enlarge?"
+  },
+  {
+    "objectID": "temperature.html#blatnik-bridge-bl",
+    "href": "temperature.html#blatnik-bridge-bl",
+    "title": "Temperature",
+    "section": "Blatnik Bridge (BL)",
+    "text": "Blatnik Bridge (BL)\nSame graph style and arrangement as BA example"
+  },
+  {
+    "objectID": "temperature.html#oliver-bridge-ol",
+    "href": "temperature.html#oliver-bridge-ol",
+    "title": "Temperature",
+    "section": "Oliver Bridge (OL)",
+    "text": "Oliver Bridge (OL)\nSame graph style and arrangement as BA example"
+  },
+  {
+    "objectID": "temperature.html#pokegama-bay-po",
+    "href": "temperature.html#pokegama-bay-po",
+    "title": "Temperature",
+    "section": "Pokegama Bay (PO)",
+    "text": "Pokegama Bay (PO)\nSame graph style and arrangement as BA example"
+  },
+  {
+    "objectID": "dissolvedO2.html",
+    "href": "dissolvedO2.html",
+    "title": "Dissolved Oxygen",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+  },
+  {
+    "objectID": "conductivity.html",
+    "href": "conductivity.html",
+    "title": "Conductivity",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
   }
 ]
