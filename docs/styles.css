@@ -116,15 +116,15 @@ padding-right: 40px;
 .item-1 {
   z-index: 2;
   opacity: 1;
-  background: url('plot_ba_temp_obs22.jpg');
+  background: url('plot_ba_temp_obs22_2.jpg');
   background-size: cover;
 }
 .item-2 {
-  background: url('plot_ba_temp_box.jpg');
+  background: url('plot_ba_temp_box_2.jpg');
   background-size: cover;
 }
 .item-3 {
-  background: url('plot_ba_temp_range.jpg');
+  background: url('plot_ba_temp_range_2.jpg');
   background-size: cover;
 }
 
