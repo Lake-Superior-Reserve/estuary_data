@@ -79,6 +79,7 @@ padding-right: 40px;
   margin: 50px auto ;
   border: 2px solid black;
   background:  url('plot_ba_temp_obsall.jpeg');
+  opacity: 0.25
 }
 
 .carousel-item {
