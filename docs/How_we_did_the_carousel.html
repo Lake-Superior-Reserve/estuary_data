@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Temperature</title>
+<title>how_we_did_the_carousel</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
     <img src="./assets/lake-superior-reserve-rgb-logo.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">St.&nbsp;Louis River Estuary</span>
+    <span class="navbar-title">St. Louis River Estuary</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -87,6 +87,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Water Quality</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-water-quality">    
+        <li>
+    <a class="dropdown-item" href="./water_quality.html">
+ <span class="dropdown-text">Water Quality</span></a>
+  </li>  
         <li>
     <a class="dropdown-item" href="./temperature.html">
  <span class="dropdown-text">Temperature</span></a>
@@ -115,8 +119,8 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-weather">    
         <li>
-    <a class="dropdown-item" href="./space.html">
- <span class="dropdown-text">Watch this Space…</span></a>
+    <a class="dropdown-item" href="./about.html">
+ <span class="dropdown-text">About</span></a>
   </li>  
     </ul>
   </li>
@@ -126,8 +130,8 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-nutrients">    
         <li>
-    <a class="dropdown-item" href="./space.html">
- <span class="dropdown-text">Watch this Space…</span></a>
+    <a class="dropdown-item" href="./about.html">
+ <span class="dropdown-text">About</span></a>
   </li>  
     </ul>
   </li>
@@ -161,58 +165,58 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#barkers-island-ba" id="toc-barkers-island-ba" class="nav-link active" data-scroll-target="#barkers-island-ba">Barker’s Island (BA)</a></li>
-  <li><a href="#blatnik-bridge-bl" id="toc-blatnik-bridge-bl" class="nav-link" data-scroll-target="#blatnik-bridge-bl">Blatnik Bridge (BL)</a></li>
-  <li><a href="#oliver-bridge-ol" id="toc-oliver-bridge-ol" class="nav-link" data-scroll-target="#oliver-bridge-ol">Oliver Bridge (OL)</a></li>
-  <li><a href="#pokegama-bay-po" id="toc-pokegama-bay-po" class="nav-link" data-scroll-target="#pokegama-bay-po">Pokegama Bay (PO)</a></li>
+  <li><a href="#how-we-did-the-carousel-feature" id="toc-how-we-did-the-carousel-feature" class="nav-link active" data-scroll-target="#how-we-did-the-carousel-feature">How we did the “carousel” feature…</a>
+  <ul class="collapse">
+  <li><a href="#the-goal" id="toc-the-goal" class="nav-link" data-scroll-target="#the-goal">The goal:</a></li>
+  <li><a href="#the-problem" id="toc-the-problem" class="nav-link" data-scroll-target="#the-problem">The problem:</a></li>
+  <li><a href="#the-one-that-should-have-worked-but-didnt" id="toc-the-one-that-should-have-worked-but-didnt" class="nav-link" data-scroll-target="#the-one-that-should-have-worked-but-didnt">The one that SHOULD have worked, but didn’t…</a></li>
+  <li><a href="#the-one-that-did-work-enter-shiny-slickr" id="toc-the-one-that-did-work-enter-shiny-slickr" class="nav-link" data-scroll-target="#the-one-that-did-work-enter-shiny-slickr">The one that DID work; enter Shiny &amp; “slickR”</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Temperature</h1>
+
+
+<section id="how-we-did-the-carousel-feature" class="level2">
+<h2 class="anchored" data-anchor-id="how-we-did-the-carousel-feature">How we did the “carousel” feature…</h2>
+<section id="the-goal" class="level3">
+<h3 class="anchored" data-anchor-id="the-goal">The goal:</h3>
+<p>For the “temperature” page, we wanted to have a BUNCH of figures to help communicate the different aspects of how temperature plays out at each of the four monitoring stations, and an image carousel seemed like an excellent way to make those images accessible, but without overloading the page with diagrams</p>
+</section>
+<section id="the-problem" class="level3">
+<h3 class="anchored" data-anchor-id="the-problem">The problem:</h3>
+<p>Image carousels as we normally think of them on modern websites are dynamic features, typically governed by JavaScript files, with a server operating unnoticed in the background. But we are looking to host this site via GitHub Pages, and that service can only handle static pages.</p>
+</section>
+<section id="the-one-that-should-have-worked-but-didnt" class="level3">
+<h3 class="anchored" data-anchor-id="the-one-that-should-have-worked-but-didnt">The one that SHOULD have worked, but didn’t…</h3>
+<p>In theory, you can make an image carousel using only HTML &amp; css code. The idea is that you use the HTML to create a container and a couple of anchored arrow-buttons, and then you use css to “style” that container with an image as the background. Then when the user clicks on the arrow/“link” the container is replaced with a different container that has a different image as its background. It is an interesting hack, but not terribly elegant, a royal pain to update…</p>
+<p>…AND Quarto really hates this approach! Because the page is being built in markdown, and then converted to HTML automatically by Quarto, you don’t have a ton of control over how that HTML code gets written. And this approach requires precise control over the HTML. Long-story-short, Quarto kept injecting bugs that refused to die.</p>
+<p>We used the following sites as reference if someone wants to try to tackle this later: - https://www.youtube.com/watch?v=F33_O-lcx20 - https://github.com/Himeld23/Pure-Css-Carousel</p>
+</section>
+<section id="the-one-that-did-work-enter-shiny-slickr" class="level3">
+<h3 class="anchored" data-anchor-id="the-one-that-did-work-enter-shiny-slickr">The one that DID work; enter Shiny &amp; “slickR”</h3>
+<p>The root of the solution was found here: - https://stackoverflow.com/questions/51531743/image-slideshow-in-r-shiny</p>
+<p>The theory here is to: - Use R-Studio to build the carousel as a Shiny Web App. - That app is then “published” to an account on shinyapps.io, which results in a separate URL that is hosted on shinyapps.io. - This is brought into the Quarto markdown document using an <code>&lt;iframe&gt;</code> tag, which basically injects the external shinyapps.io website into the middle of the page. - This way the html page being hosted on GitHub Pages remains a “static” site, and the interactive, server-enabled behaviors are handled by the shinyapps.io site</p>
+<p>Here is the code we used for the Shiny web app:</p>
+<p>` library(shiny)<br>
+library(slickR)</p>
+<p>ui &lt;- fluidPage( slickROutput(“slickr”, width=“650px”) )</p>
+<p>server &lt;- function(input, output) { output$slickr &lt;- renderSlickR({ imgs &lt;- list.files(“www”, pattern=“.jpg”, full.names = TRUE) slickR(imgs) }) }</p>
+<p>shinyApp(ui = ui, server = server) <code>#### Notes on the images: - The images are placed in the "www" folder which needs to be in the same directory as the app.r file. That folder is not generated automatically - The carousel just cycles through the images based on their alphabetical ordering within the "WWW" folder. If you want to change the order of the images, you need to change their file-names. - For this application, we manually resized the images to 650 x 450 before they were placed into the "www" folder. - The size of the frame used to host the carousel should match or esceed the size of the images. See temperature.qmd to see how we coded our</code><iframe>` tags.</p>
+<div id="quarto-navigation-envelope" class="hidden">
+<p><span class="hidden" data-render-id="quarto-int-navbar-title">St. Louis River Estuary</span> <span class="hidden" data-render-id="quarto-int-navbar:Water Quality">Water Quality</span> <span class="hidden" data-render-id="quarto-int-navbar:Temperature">Temperature</span> <span class="hidden" data-render-id="quarto-int-navbar:Conductivity">Conductivity</span> <span class="hidden" data-render-id="quarto-int-navbar:Dissolved Oxygen">Dissolved Oxygen</span> <span class="hidden" data-render-id="quarto-int-navbar:pH">pH</span> <span class="hidden" data-render-id="quarto-int-navbar:Turbidity">Turbidity</span> <span class="hidden" data-render-id="quarto-int-navbar:Weather">Weather</span> <span class="hidden" data-render-id="quarto-int-navbar:About">About</span> <span class="hidden" data-render-id="quarto-int-navbar:Nutrients">Nutrients</span> <span class="hidden" data-render-id="quarto-int-navbar:Reports">Reports</span> <span class="hidden" data-render-id="quarto-int-navbar:Reports, Resources, &amp; Other Publications">Reports, Resources, &amp; Other Publications</span></p>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<section id="barkers-island-ba" class="level2">
-<h2 class="anchored" data-anchor-id="barkers-island-ba">Barker’s Island (BA)</h2>
-<iframe src="https://lsnerr.shinyapps.io/carousel_temp_ba/" width="700" height="500">
-</iframe>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden" data-render-id="quarto-twittercardtitle"></span> <span class="hidden" data-render-id="quarto-ogcardtitle"></span></p>
+</div>
 </section>
-<section id="blatnik-bridge-bl" class="level2">
-<h2 class="anchored" data-anchor-id="blatnik-bridge-bl">Blatnik Bridge (BL)</h2>
-<iframe src="https://lsnerr.shinyapps.io/carousel_temp_bl/" width="700" height="500">
-</iframe>
-</section>
-<section id="oliver-bridge-ol" class="level2">
-<h2 class="anchored" data-anchor-id="oliver-bridge-ol">Oliver Bridge (OL)</h2>
-<iframe src="https://lsnerr.shinyapps.io/carousel_temp_ol/" width="700" height="500">
-</iframe>
-</section>
-<section id="pokegama-bay-po" class="level2">
-<h2 class="anchored" data-anchor-id="pokegama-bay-po">Pokegama Bay (PO)</h2>
-<iframe src="https://lsnerr.shinyapps.io/carousel_temp_po/" width="700" height="500">
-</iframe>
-
-
 </section>
 
 </main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+<script id = "quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -347,6 +351,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 </div> <!-- /content -->
 
+</body>
 
-
-</body></html>
+</html></iframe></p></section></section></main></div></body></html>
